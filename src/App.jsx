@@ -25,6 +25,14 @@ function App() {
     filteredUsers = users.filter((user) => {
       return user.gender === "male";
     });
+  } else if (selectedFilter === "name-selected") {
+    filteredUsers = users.slice().sort((userA, userB) => {
+      if (userA.name.last > userB.name.last) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
   }
 
   // let women = users.filter((user) => {
