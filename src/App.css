@@ -9,6 +9,22 @@ h1 {
   margin-bottom: 12px;
 }
 
+button {
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.highlighted,
+.women-selected,
+.men-selected,
+.name-selected,
+.age-selected {
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+
 .card-list {
   display: flex;
   flex-direction: row;
