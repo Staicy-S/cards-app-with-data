@@ -16,11 +16,7 @@ button {
   border-radius: 5px;
 }
 
-.highlighted,
-.women-selected,
-.men-selected,
-.name-selected,
-.age-selected {
+.highlighted {
   background-color: rgb(33, 33, 33);
   color: white;
 }
