@@ -33,6 +33,14 @@ function App() {
         return -1;
       }
     });
+  } else if (selectedFilter === "age-selected") {
+    filteredUsers = users.slice().sort((userA, userB) => {
+      if (userA.dob.age > userB.dob.age) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
   }
 
   // let women = users.filter((user) => {
